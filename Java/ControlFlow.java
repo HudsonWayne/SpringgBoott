@@ -13,7 +13,21 @@ public class ControlFlow {
         int age = sc.nextInt();
 
 
-        System.out.println("Hello" + name + ", you are"  + age + "years old:");
+        System.out.println("Hello" + name + ", you are"  + age +
+         "years old:");
+
+         int number = 10;
+         if(number > 0){
+            System.out.println("The number is positive");
+         }else if(number < 0){
+            System.out.println("The number is negative" );
+         }else{
+            System.out.println("The number is zero");
+         }
+
+
+
+
     }
     
 }
