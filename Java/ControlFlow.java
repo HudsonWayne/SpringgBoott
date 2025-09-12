@@ -24,10 +24,5 @@ public class ControlFlow {
          }else{
             System.out.println("The number is zero");
          }
-
-
-
-
     }
-    
 }
