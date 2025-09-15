@@ -16,7 +16,7 @@ public class Encapsulation {
     public static void main(String[] args) {
         BankAccount acc = new BankAccount();
         acc.deposit(1000);
-        System.out.println();
+        System.out.println("Balance: $" + acc.getBalance());
     }
     
 }
