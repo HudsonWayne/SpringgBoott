@@ -8,6 +8,12 @@ public class ArryList {
         names.add("Wayne");
         names.add("Tanaka");
         names.add("Hudson");
+
+        System.out.println(names.get(0));
+
+        for (String name : names){
+            System.out.println(names);
+        }
     }
     
 }
