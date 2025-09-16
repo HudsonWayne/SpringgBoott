@@ -7,6 +7,14 @@ public class Sets {
         HashSet<Integer> numbers = new HashSet<>();
 
         numbers.add(10);
+        numbers.add(20);
+        numbers.add(20);
+        numbers.add(30);
+
+        for (int num : numbers){
+            System.out.println(num);
+        }
+
     }
     
 }
