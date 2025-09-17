@@ -19,6 +19,9 @@ public class ClasesObjects {
         car2.brand = "Honda";
         car2.year = 2022;
 
+        car1.drive();
+        car2.drive();
+
     }
     
 }
