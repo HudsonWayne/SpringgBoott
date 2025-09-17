@@ -1,3 +1,4 @@
+package Java.JCF.HashMap;
 import java.util.HashMap;
 
 public class MapExample {
