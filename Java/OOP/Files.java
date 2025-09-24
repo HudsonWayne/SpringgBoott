@@ -8,6 +8,10 @@ public class Files {
         try {
             File file = new File("example.txt");
             Scanner reader = new Scanner (file);
+            while(reader.hasNextLine()){
+                String data = reader.nextLine();
+                System.out.println(data);
+            }
         } catch (Exception e) {
             // TODO: handle exception
         }
