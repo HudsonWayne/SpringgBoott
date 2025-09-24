@@ -13,8 +13,10 @@ public class Files {
                 System.out.println(data);
             }
             reader.close();
-        } catch (Exception e) {
+        } catch (FileNotFoundException e) {
             // TODO: handle exception
+            System.out.println("File not found.");
+            e.printStackTrace();
         }
     }
 }
