@@ -5,7 +5,7 @@ public class FinallyBlock {
         try {
             String text = null;
             System.out.println(text.length());
-        } catch (Exception e) {
+        } catch (NullPointerException e) {
             // TODO: handle exception
         }
     }
