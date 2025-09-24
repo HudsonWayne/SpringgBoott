@@ -12,6 +12,7 @@ public class Files {
                 String data = reader.nextLine();
                 System.out.println(data);
             }
+            reader.close();
         } catch (Exception e) {
             // TODO: handle exception
         }
