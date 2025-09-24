@@ -7,6 +7,9 @@ public class FinallyBlock {
             System.out.println(text.length());
         } catch (NullPointerException e) {
             // TODO: handle exception
+            System.out.println("Error: Null value");
+        }finally{
+            System.out.println("This will always run");
         }
     }
 }
